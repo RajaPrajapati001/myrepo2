@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS ::Before and ::After Example</title>
+    <style>
+        .example::before {
+            content: "Before - ";
+            color: blue;
+        }
+
+        .example::after {
+            content: " - After";
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p class="example">This is the main content.</p>
+</body>
+</html>
